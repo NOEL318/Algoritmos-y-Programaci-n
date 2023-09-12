@@ -22,36 +22,36 @@ int main()
     while (1)
     {
         usleep(1000000);
-        seconds + 1;
+        seconds++;
         if (seconds >= 60)
         {
             seconds = 0;
-            minutes ++;
+            minutes++;
             cout << years << ' ' << month << ' ' << days << ' ' << ':' << minutes << ':' << seconds << '\n';
             if (minutes == 60)
             {
                 minutes = 0;
-                hours ++;
+                hours++;
                 if (hours == 24)
                 {
                     hours = 0;
-                    days ++;
+                    days++;
                     if (days - 1 == month_days[month])
                     {
-                        month ++;
+                        month++;
                         days = 1;
                         if (month == 13)
                         {
                             month = 1;
-                            years ++;
+                            years++;
                         }
                     }
                 }
             }
         }
-        else{
-            cout << years << '/' << month << '/' << days << ' ' << hours <<':' << minutes << ':' << seconds << '\n';
-            seconds++;
+        else
+        {
+            cout << years << '/' << month << '/' << days << ' ' << hours << ':' << minutes << ':' << seconds << '\n';
         }
     }
 
