@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
     int nota;
@@ -29,7 +27,6 @@ int main()
     {
         caso = 5;
     }
-
     switch (caso)
     {
     case 1:
