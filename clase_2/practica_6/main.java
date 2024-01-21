@@ -22,7 +22,6 @@ public class main {
         else{
             System.out.println("Usted NO aprobó el curso con promedio de: "+promedio);
         }
-
         sc.close();
     }
 }
