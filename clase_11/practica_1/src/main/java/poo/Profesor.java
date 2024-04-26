@@ -26,9 +26,9 @@ public class Profesor extends Personah {
     }
 
     public String getHoras(){
-        return horas+" horas."
+        return horas+" horas.";
     }
     public String getSueldo(){
-        return sueldo+" sueldo."
+        return sueldo+" sueldo.";
     }
 }
