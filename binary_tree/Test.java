@@ -7,6 +7,8 @@ public class Test {
 						new BinaryTree('^', new BinaryTree('d', null, null), new BinaryTree('e', null, null))));
 
 		bin_tree.inorder();
+		System.out.println(((int) 'a'));
+		
 	}
 
 }

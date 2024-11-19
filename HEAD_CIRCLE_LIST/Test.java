@@ -1,16 +1,16 @@
-import java.utils.List;
-import java.utils.LinkedList;
 
-public class Test{
-	public static void main(String[] args){
-		List list= new LinkedList();
-		HeadCircleList list= new HeadCircleList();
-		list= list.insert("B");
-		list= list.insert("C");
-		list= list.insert("D");
-		list= list.insert("E");
-		list= list.insert("F");
-
+public class Test {
+	public static void main(String[] args) throws Exception{
+		HeadCircleList list = new HeadCircleList();
+		list.insert('B');
+		list.insert('C');
+		list.insert('D');
+		list.insert('E');
+		list.insert('F');
 		list.display("Imprimir Lista");
+		list.delete('D');
+		list.insert_at_end('Z');
+		list.display("Imprimir Lista");
+
 	}
 }

@@ -1,6 +1,7 @@
 public class BinaryTree {
 
 	private char info;
+
 	// pointers==NULL
 	private BinaryTree left;
 	private BinaryTree right;
@@ -12,6 +13,12 @@ public class BinaryTree {
 		right = r;
 	}
 
+
+	public double eval() {
+		
+		return 0.00;
+	}
+
 	public void inorder() {
 		if (left != null) {
 			left.inorder();
@@ -21,9 +28,7 @@ public class BinaryTree {
 			right.inorder();
 		}
 	}
-
 	public void display() {
 		
 	}
-
 }
